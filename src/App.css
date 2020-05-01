@@ -1,38 +1,55 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+.addTransaction {
+    display: inline-block;
+    margin-left: 30%;
+}
+.balance {
   text-align: center;
+  color: tomato;
+  margin-bottom: 3px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.deleteButton {
+    padding: 3px 5px;
+    margin-left: 10px;
+    border-radius: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.displayBalance {
+  text-align: center;
+  margin-top: 1px;
+  color: cornflowerblue;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.dispalyStatus {
+    margin-left: 50%;
+    background-color: red;
+}
+.green {
+  color: green;
+}
+.header {
+  text-align: center;
+  color: navy;
+}
+.history {
+  text-align: center;
+  margin-top: 20px;
+  color: saddlebrown;
+}
+.incomeExpense {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  background-color: cornflowerblue;
+  padding: 10px 30px;
+  border-radius: 4px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.red {
+  color: red;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.transaction {
+  text-align: center;
+  margin: 3px;
 }
